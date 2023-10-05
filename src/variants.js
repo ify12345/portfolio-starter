@@ -18,3 +18,11 @@ export const fadeIn = (direction, delay) => {
     },
   };
 };
+
+
+
+{/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
+{
+  inView? 
+  <CountUp start={0} end={3} duration={30}/>: null}
+</div> */}
