@@ -13,8 +13,8 @@ const Header = () => {
 
          <div className='flex gap-x-8'>
         <Link to="about" className=''>About</Link>
-        <button className=''>Projects</button>
-        <button className=''>Contacts</button>
+        <Link to="work" className=''>Projects</Link>
+        <Link  to="contact" className='contact'>Contacts</Link>
 
          </div>
       </div>

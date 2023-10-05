@@ -1,5 +1,6 @@
 import React from 'react';
 import Headers from '../pages/Headers';
+import {BiLogoJavascript, BiLogoReact,BiLogoHtml5,BiLogoTailwindCss,BiLogoCss3,BiLogoBootstrap,BiLogoGit,BiLogoNodejs,BiLogoPython,BiLogoDjango, BiGlobe} from "react-icons/bi"
 
 
 
@@ -18,7 +19,13 @@ const EhizuaLearn = () => {
          My job was to implement the front End of this design using React here is a sneak peak to the figma  <a className='text-sm text-blue-600' href="https://www.figma.com/file/8QVFPKcHXSD9TytL4iNlzW/EHIZUA?type=design&node-id=4-186&mode=design&t=fYK7eW1MvH79TPoq-0">designs</a></p>
        </p>
        The Goal of this platform is to enable student stress free learning experience for their desired tech skill
-           <a href='https://main--incandescent-cascaron-61c6d8.netlify.app/'> Link</a>
+           <div className="flex items-center">
+              
+              <a href="https://github.com/ify12345/ehz_lms.git"><BiLogoGit/></a>
+           </div>
+           <div className="flex items-center">
+               <a href=''><BiGlobe/></a>
+           </div>
      </div>
    </section>
   )
