@@ -17,7 +17,7 @@ export default function Routes() {
         innerScale={3}
         outerScale={0.2}
         outerStyle={{
-          border: "3px solid white",
+          border: "2px solid white",
         }}
         innerStyle={{
           backgroundColor: "pink",
